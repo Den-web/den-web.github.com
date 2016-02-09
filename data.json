@@ -5,7 +5,7 @@
         "headline":" Мое Портфолио!",
         "type":"default",
 		"startDate":"2013,09",
-		"text":"<i><span class='c1'> WEB-den </span> <span class='c2'>Front-END  Developer</span></i>",
+		"text":"<i><span class='c1'> Den - web </span> <span class='c2'>Front - end  developer</span></i>",
 		"asset":
         {
             "media":"assets/img/notes.png",
@@ -13,6 +13,61 @@
             "caption":""
         },
         "date": [
+            	{
+                "startDate":"2015,5",
+                "headline":"Интернет магазин нижнего белья на Wordpress",
+                "text":"Многофункциональный интернет магазин!",
+                "asset":
+                {
+                    "media":"assets/img/shots/magazine.jpg",
+                    "credit":"<a href='http://jad.od.ua'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            }, 
+        	{
+                "startDate":"2015,4",
+                "headline":"Верстка главной страницы сайта",
+                "text":"Адаптивная верстка.",
+                "asset":
+                {
+                    "media":"assets/img/shots/test_work.jpg",
+                    "credit":"<a href='portfolio/test_work/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            }, 
+        	 {
+                "startDate":"2015,3",
+                "headline":"Верстка главной страницы сайта",
+                "text":"Адаптивная верстка.",
+                "asset":
+                {
+                    "media":"assets/img/shots/octopus.jpg",
+                    "credit":"<a href='portfolio/octopus/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            }, 
+            {
+                "startDate":"2015,2",
+                "headline":"Cайт портфолио Landing page на Wordpress",
+                "text":"Простой симпотичный сайт портфолио подходит для фотографов и веб разработчиков.",
+                "asset":
+                {
+                    "media":"assets/img/shots/photo_portfolio.jpg",
+                    "credit":"<a href='portfolio/photo_portfolio/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            }, 
+        	{
+                "startDate":"2015,1",
+                "headline":"7MAKEUP",
+                "text":"Сайт индустрии красоты",
+                "asset":
+                {
+                    "media":"assets/img/shots/7makeup.jpg",
+                    "credit":"<a href='portfolio/7makeup/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            },   
             {
                 "startDate":"2014,10",
                 "headline":"Сайт фирмы по дизайну и ремонту",
@@ -78,7 +133,8 @@
                     "credit":"<a href='portfolio/soc_seti/index.html'>Автор верстки WEB-den</a>",
                     "caption":""
                 }
-            }   
+            } 
+
         ]
     }
 }

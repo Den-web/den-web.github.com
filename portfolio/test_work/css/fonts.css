@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "LucidaGrande";
+  font-style: bold;
+  font-weight: 700;
+  src: url("fonts/LucidaGrandeBold.ttf") format("ttf"); }
+@font-face {
+  font-family: "LucidaGrande";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/LucidaGrande.ttf") format("ttf"); }
+@font-face {
+  font-family: "FuturaLtBt";
+  font-style: normal;
+  font-weight: 600;
+  src: url("fonts/FuturaLtBt") format("ttf"); }
+@font-face {
+  font-family: "FuturaMdBtBold";
+  font-style: bold;
+  font-weight: 700;
+  src: url("fonts/FuturaMdBtBbold.ttf") format("ttf"); }
+@font-face {
+  font-family: "FuturaMdBt";
+  font-style: middle;
+  font-weight: middle;
+  src: url("fonts/FuturaMdBt.ttf") format("ttf"); }

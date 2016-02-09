@@ -1,0 +1,284 @@
+﻿@font-face {
+    font-family: 'Open Sans Bold'; /* Гарнитура шрифта */
+    src: url(../fonts/OpenSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'OpenSans Regular'; /* Гарнитура шрифта */
+    src: url(../fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'OpenSans Light'; /* Гарнитура шрифта */
+    src: url(../fonts/OpenSans-Light.ttf); /* Путь к файлу со шрифтом */
+}
+/*-----------------------------------------block -------------------------*/
+
+
+/*-----------------------------------------*/
+body{
+    position: relative;
+}
+
+
+
+.merg{
+    margin-top: 185px;
+}
+.container_mer_slider{
+    width: 1200px;
+    height: 1000px;
+    position: relative;
+}
+.bg3max {
+   
+    width: 100%;
+    padding: 0px;
+    height: 700px;
+    top: -1821px;
+    left: 0;
+    right: 0;
+}
+.bg3max_index {
+   margin-top: 0px;
+    width: 1200px;
+    height: 700px;
+    
+}
+.bg3cmax_index {
+    background: url(../img/bg/bg3.png) no-repeat scroll center center / cover transparent;
+    max-width: 1200px;
+    height: 700px;
+    margin-top: 0px;
+}
+.bg3cmax {
+    background: url(../img/bg/bg3.png) no-repeat center;
+    
+    max-width: 1200px;
+    height: 700px;
+    
+    
+    top:1963px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+
+
+
+.bg3ccmax {
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    top: -1216px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+}
+
+.bg3headmax {
+    text-transform: uppercase;
+    margin-top: -976px;
+    margin-left: 330px;
+    font-size: 40px;
+    position: absolute;
+    font-family: "OpenSans Light";
+    color: #FFF;
+}
+
+.bg3t2max {
+    text-transform: uppercase;
+    margin-top: -900px;
+    margin-left: 100px;
+    font-size: 25px;
+    width: 400px;
+    position: absolute;
+    font-family: "Open Sans Bold";
+    color: #FFF;
+}
+
+.bg3t3max {
+    margin-top: -847px;
+    margin-left: 60px;
+    font-size: 20px;
+    width: 550px;
+    position: absolute;
+    font-family: "OpenSans Light";
+    color: #FFF;
+}
+
+.bg3btn1max {
+    margin-left: 65px;
+    margin-top: 0px;
+   
+    width: 320px;
+    height: 45px;
+    background: none repeat scroll 0% 0% #FFD616;
+    border-bottom: 7px solid #CCA60E;
+    border-radius: 10px 10px 12px 12px;
+    text-align: center;
+    color: #000;
+    font-size: 20px;
+    font-family: "Open Sans Bold";
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+    .bg3btn1max:hover {
+        background: #ffe465;
+        border-color: #d9bb41;
+    }
+
+    .bg3btn1max:active {
+        width: 314px;
+        height: 43px;
+        border-bottom: 5px solid #d9bb41;
+        font-size: 19.5px;
+        margin-left: 68px;
+    }
+
+.postmax {
+    background-image: url("../img/post/1b.png");
+    background-size: 100% 100%;
+    width: 680px;
+    height: 370px;
+    margin-left: 520px;
+    margin-top: -827px;
+}
+
+/*-----------------------------------------block -------------------------*/
+footer {
+    width: 100%;
+    height: 485px;
+  
+}
+
+.bg4max {
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    height: 185px;
+    top: 2663px;
+    left: 0;
+    right: 0;
+}
+.bg4cmax_index {
+    background: none repeat scroll 0% 0% #2F2F2F;
+    max-width: 1200px;
+    max-height: 185px;
+    position: absolute;
+    top: -1737px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+}
+.bg4cmax {
+    background: #2f2f2f;
+    max-width: 1200px;
+    max-height: 185px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.bg4ccmax {
+    width: 1200px;
+    height: 185px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.navleftmax {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 40px;
+    cursor: pointer;
+    width:55px;
+}
+
+.navrightmax {
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 1110px;
+    cursor: pointer;
+    width:55px;
+     transform: rotate(180deg);
+}
+
+
+.wrappermax {
+    position: absolute;
+    width: 980px;
+    height: 150px;
+    top: 12px;
+    left: 110px;
+    overflow: hidden;
+}
+
+.containermax {
+    position: absolute;
+    width: 3000px;
+    height: 400px;
+}
+
+.contentContainermax {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 294px;
+    margin-left: 24px;
+    height: 145px;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+    .contentContainermax:hover {
+        border: 3px solid #ffd616;
+        width: 288px;
+        height: 139px;
+        cursor: pointer;
+    }
+
+    .contentContainermax:first-child {
+        opacity: 0.6;
+    }
+
+.c1max {
+    background-image: url(../img/post/1b.png);
+}
+
+.c2max {
+    background-image: url(../img/post/1b.png);
+}
+
+.c3max {
+    background-image: url(../img/post/1b.png);
+}
+
+.c4max {
+    background-image: url(../img/post/1b.png);
+}
+
+.c5max {
+    background-image: url(../img/post/1b.png);
+}
+
+.c6max {
+    background-image: url(../img/post/1b.png);
+}
+
+.c7max {
+    background-image: url(../img/post/1b.png);
+}
+/*-----------------------------------------------------------*/

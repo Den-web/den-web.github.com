@@ -1,0 +1,284 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+		
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	img.order {
+	  width: 100%;
+	}
+	
+	.col-sm-2 {
+  width: 18.666667%;
+}
+	.ch-img-1 { 
+		background-image: url(../img/dev.png);
+		
+		width: 100%;
+	}
+
+	.ch-img-2 { 
+		background-image: url(../img/prodviz.png);
+		
+	}
+
+	.ch-img-3 { 
+		background-image: url(../img/copirait.png);
+		
+	}
+	.ch-img-4 { 
+		background-image: url(../img/audit.png);
+		
+	}
+
+	.ch-img-5 { 
+		background-image: url(../img/context.png);
+		
+	}
+
+	.ch-img-6 { 
+		background-image: url(../img/smm.png);
+		
+	}
+	.ch-grid li{
+	display: inline;
+	}
+
+.ch-grid {
+	margin: 0px 0 0 3%;
+	padding: 0;
+	list-style: none;
+	display: block;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+.ch-grid li {
+	width: 110px;
+	height: 180px;
+	display: inline-block;
+	margin-left: -20px;
+	margin-bottom: 60px;
+}
+.ch-info{
+	position: absolute;
+	width: 111px;
+	height: 180px;
+	
+	z-index: 1000;
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.tel_cont {
+  		margin-top: 230px;
+  		display: none;
+	}
+	.sp-slideshow {
+		height: 100%;
+	}
+	
+	.mi_soc_set img{
+		display: none;
+	}
+	ul.footer_menu li a {
+	  font-size: 21px;
+	  color: #fff;
+	  padding: 10px;
+	}
+	
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.sp-slideshow {
+		height: 81px;
+	}
+
+	.map img {
+		display: none;
+	}
+	.oct_text img {
+	  	
+	  	display: none;
+	}
+	.col-xs-1, .col-xs-2, .col-xs-3, 
+	.col-xs-4, .col-xs-5, .col-xs-6, 
+	.col-xs-7, .col-xs-8, .col-xs-9, 
+	.col-xs-10, .col-xs-11, .col-xs-12 {
+		width: 100%;
+	}
+	.te-flip3 a img{
+		width: 25%;
+	}
+	.map img {
+		width: 100%;
+	}
+	.sp-slideshow {
+		height: 100%;
+	}
+	ul.footer_menu li a {
+		  font-size: 20px;
+		  color: #fff;
+		  padding: 5px;
+	}
+	img.order {
+	  width: 70%;
+	  margin-top: 0px;
+	}
+	menu ul li a {
+	  color: #fff;
+	  padding: 7px;
+	}
+	p.text2{
+		display: none;
+	}
+	.tel_cont {
+		display: none;
+	  	margin-top: 230px;
+	}
+	.oct_text {
+	  margin-top: 10px;
+	  margin-left: -40px;
+	}
+	.mi_soc_set p {
+	  margin-top: 10px;
+	  color: #fff;
+	}
+	
+	.contact p {
+ 		 margin-top: 10px;
+	}
+	.mi_soc_set p {
+	  margin-top: 230px;
+	  color: #fff;
+	  display: none;
+	}
+	.sp-arrow {
+	  position: absolute;
+	  top: 50%;
+	  
+	}
+	.col-sm-2 {
+  		width: 27.666667%;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	img.order {
+	  width: 100%;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	img.order {
+	  width: 100%;
+	}
+	
+}
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+	
+
+	
+	
+	.map img {
+		width: 100%;
+	}
+	.te-flip3 a img{
+		width: 25%;
+	}
+	img.order {
+ 	width: 100%;
+	}
+	.sp-slideshow {
+ 	 	height: 100%;
+ 	 }
+ 
+	.ch-grid li {
+	width: 220px;
+	height: 320px;
+	display: inline-block;
+	margin-left: -80px;
+	margin-bottom: 120px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+
+
+	img.order {
+	  width: 100%;
+	}
+	menu ul li{
+		padding: 5px 4px;
+	}
+	.map img {
+		width: 100%;
+	}
+	.sp-slideshow {
+ 	 	height: 100%;
+ 	 }
+ 	 .seach {
+  		width: 359px;
+  	}
+  	#username {
+  		width: 129px;
+  	}
+  	menu ul {
+	  margin-left: -56px;
+	  
+	}
+	menu ul li a {
+	  	color: #fff;
+	  	padding: 0px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
