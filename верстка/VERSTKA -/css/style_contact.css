@@ -1,0 +1,138 @@
+﻿@font-face {
+    font-family: 'Open Sans Bold'; /* Гарнитура шрифта */
+    src: url(../fonts/OpenSans-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'OpenSans Regular'; /* Гарнитура шрифта */
+    src: url(../fonts/OpenSans-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: 'OpenSans Light'; /* Гарнитура шрифта */
+    src: url(../fonts/OpenSans-Light.ttf); /* Путь к файлу со шрифтом */
+}
+/*-----------------------------------------block -------------------------*/
+
+.bg1k {
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    height: 1230px;
+    top: 70px;
+    left: 0;
+    right: 0;
+}
+
+.bg1ck {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+.bg1cck {
+    background:white no-repeat center;
+    background-size:1200px 1200px;
+    max-width: 1200px;
+    max-height: 1230px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    font-family:'Open Sans Bold';
+}
+
+
+
+.text_contactk{
+    position:absolute;
+    margin-left:450px;
+    margin-top:20px;
+    z-index:999999;
+}
+.img1k{
+    position:absolute;
+    margin-top:100px;
+    margin-left:160px;
+    z-index:999999;
+}
+.img2k{
+    position:absolute;
+     margin-top:635px;
+     margin-left:163.5px;
+     width:874px;
+     z-index:999999;
+}
+.frame1k{
+    position:absolute;
+    z-index:99;
+    margin-top:00px;
+    margin-left:170px;
+}
+.frame2k{
+    z-index:9;
+    position:absolute;
+    margin-top:530px;
+    margin-left:170px;
+}
+.phonek{
+    text-align:center;
+    margin-top:193px;
+    margin-left:320px;
+    position:absolute;
+    width:240px;
+    height:40px;
+    font-size:18px;
+    padding-top:10px;
+    background-color:#f4bd05;
+    cursor:pointer;
+    border-radius:10px;
+    z-index:9999999;
+}
+.phonek:hover{
+    background-color:#d3a716;
+   }
+.phonek:active{
+     font-size:17.5px;
+    width:238px;
+    height:38px;
+}
+.dd{
+    position:absolute;
+    background-color:white;
+    z-index:99;
+}
+.dg1{
+    width:1200px;
+    height:106px;
+    margin-top:0px;
+    margin-left:0px;
+}
+.dg2{
+    width:1200px;
+    height:52.6px;
+    margin-top:590px;
+    margin-left:0px;
+}
+.dg3{
+    width:1200px;
+    height:79px;
+    margin-top:1179px;
+    margin-left:0px;
+}
+.dv1{
+    width:169px;
+    height:1150px;
+    margin-top:100px;
+}
+.dv2{
+    width:169px;
+    height:1150px;
+    margin-top:100px;
+    margin-left:1031px;
+}

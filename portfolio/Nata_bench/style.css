@@ -1,0 +1,329 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+	outline: 0;
+}
+body {
+	height: 8204px;
+	width: 1920px;
+}
+.head{
+   height: 182px;
+	width: 1920px;
+	background: url(img/background1.png);
+	border-bottom: 5px solid #fabe86;
+}
+.content{
+	width: 980px;
+	margin: 0 auto;
+	
+}
+.nata {
+	background: url(img/nata.png) no-repeat; 
+	height: 92px;
+	width: 315px;
+	margin-left: -23px;
+	margin-top: 37px;
+	float: left;
+}
+.address {
+	background: url(img/nata.png) no-repeat -333px -70px;
+	height: 22px;
+	width: 363px;
+	float: right;
+	margin-top: 12px;
+	clear:right
+}
+.number {
+	background: url(img/nata.png) no-repeat -372px -19px;
+	height: 32px;
+	width: 273px;
+	float: right;
+	margin-left: ;
+	margin-top: 63px;
+	clear:right
+}
+.clearfix {
+	content:".";
+	clear:both;
+	display:block;
+	height:0;
+	font-size:0;
+	visibility:hidden
+}
+.up{
+	background: url(img/tringle.png) no-repeat 0 -9px;
+	width: 1920px;
+	height: 7px;
+	margin-top: -11px  ;
+}
+.maried{
+    background: url(img/maried.jpg);
+    width: 1920px;
+    height: 490px;
+    margin-top: 4px;
+    border-bottom: 5px solid #fabe86;
+}
+.heart{
+    background: url(img/heart.png) no-repeat ;
+    width: 815px;
+    height: 104px;
+    float: right;
+    clear: right;
+    margin-top: 35px;
+}
+.heart1{
+    background: url(img/heart.png) no-repeat -10px -130px;
+    width: 410px;
+    height: 326px;
+    float: right;
+    clear: right;
+    position:relative;
+}
+.video{
+    border: 4px #ff8938;
+    Width: 410px;
+    height: 298px;
+}
+.date{
+    position:absolute;
+    float:right;
+    margin-right: -10px;
+    margin-top: -200px;
+    width: 360px;
+    height: 160px;
+}
+form .text{
+    font: 18px Calibri Regular ; 
+    color: #a0a0a0;
+    width:347px;
+    height:42px;
+    border: 2px #fabe86;
+    margin-bottom:12px;
+   	padding-left: 25px;
+}
+form .button{
+		border: 2px #fabe86;
+		width:253px;
+		height:42px;
+		margin-left:57px;
+	background: #ffb76b; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #ffb76b 0%, #ffaa46 0%, #ffaa46 33%, #ff913c 98%, #ff913c 98%, #ff913c 99%, #ff913c 99%, #fd8334 100%, #ff913c 100%, #ff913c 100%, #ff913c 100%, #ff913c 100%, #ffaa46 100%, #ffaa46 104%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffb76b), color-stop(0%,#ffaa46), color-stop(33%,#ffaa46), color-stop(98%,#ff913c), color-stop(98%,#ff913c), color-stop(99%,#ff913c), color-stop(99%,#ff913c), color-stop(100%,#fd8334), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ffaa46), color-stop(104%,#ffaa46)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* IE10+ */
+background: radial-gradient(ellipse at center, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffaa46',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.fact{
+   width: 1920px;
+   height: 458px;
+   background: url(img/background1.png);
+   border-bottom:5px solid #fabe86; 
+}
+.down{
+   background: url(img/tringle.png);
+   width: 1920px;
+   height: 7px;
+}
+.statistic{
+   background:url(img/statistica.png) no-repeat;
+   width:930px;
+   height:312px;
+   margin-left:20px;
+   margin-top:71px;
+   margin-bottom: 72px;
+}
+.white{
+   background:url(img/white.png) no-repeat;
+   width:1920px;
+   height: 1031px;
+   border-bottom: 5px solid #fabe86; 
+   position: relative:
+}
+.ideal{
+   background:url(img/ideal.png) no-repeat ;
+   width:958px;
+   height:866px;
+	display:inline-block;
+   margin-top: 70px;
+   margin-left: 500px;;
+}
+.comments{
+   background:url(img/background1.png);
+   width: 1920px;
+   height: 1510px;
+   border-bottom: 5px solid #fabe86; 
+}
+.arrow{
+   background: url(img/arrow.png) no-repeat;
+   width: 150px;
+   height: 208px;
+   position: absolute;
+   margin-left: 955px;
+   top: 2100px;
+}
+.reserve{
+   background:url( img/reserve.png) no-repeat 0 10px; 
+   width: 348px;
+   height: 67px;
+   margin-top: 70px;
+   margin-left: 10px;
+}
+.reserve1{
+   background:url( img/reserve.png) no-repeat -585px -10px; 
+   width: 387px;
+   height: 43px;
+   margin-top: -55px;
+   float: right;
+   clear: right;
+   }
+.action{
+   background:url(img/action.jpg) no-repeat;
+   width:1920px;
+   height:706px;
+   border-bottom: 5px solid #fabe86;
+   margin-top: 3px;
+}
+.reserve2 {
+   background:url(img/comments.png) no-repeat;
+   width: 971px;
+   height: 1223px;
+   margin-left: 10px;
+   margin-top: 70px;
+}
+.heart2{
+   background:url(img/heart2.png) no-repeat;
+   width: 1021px;
+   height: 491px;
+   margin-top:108px;
+   display:inline-block;
+}
+.basic{
+   background:url(img/background1.png);
+   border-bottom: 5px solid #fabe86; 
+   height: 3029px;
+   width: 1920px;
+   margin-top:px;
+}
+.date1{
+   margin-left: 550px;
+   margin-top: 200px;
+}
+.photo{
+   background: url(img/photo.png) no-repeat;
+   width: 980px;
+   height:2824px;
+   margin-top:80px;
+   display:inline-block;
+   margin-left: 470px;
+}
+.basic button{
+   display:inline-block;
+   margin-top:33px;
+   margin-left:1063px;
+   font: 18px Calibri sans-serif Regular  ; 
+   color: white;
+   border: 2px #fabe86;
+   width: 385px;
+   height:41px;
+   background: #ffb76b; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #ffb76b 0%, #ffaa46 0%, #ffaa46 33%, #ff913c 98%, #ff913c 98%, #ff913c 99%, #ff913c 99%, #fd8334 100%, #ff913c 100%, #ff913c 100%, #ff913c 100%, #ff913c 100%, #ffaa46 100%, #ffaa46 104%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffb76b), color-stop(0%,#ffaa46), color-stop(33%,#ffaa46), color-stop(98%,#ff913c), color-stop(98%,#ff913c), color-stop(99%,#ff913c), color-stop(99%,#ff913c), color-stop(100%,#fd8334), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ffaa46), color-stop(104%,#ffaa46)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* IE10+ */
+background: radial-gradient(ellipse at center, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffaa46',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.bgfooter{
+   background:url(img/flovers.png) no-repeat;
+   width: 1920px;
+   height: 663px;
+   border-bottom: 5px solid #fabe86;
+}
+.NataBench{
+   background:url(img/NataBench.png) -65px 0 no-repeat;
+   display:inline-block;
+   width: 620px;
+   height: 743px;
+   margin-top: -80px;
+   margin-left: 383px 
+   
+}
+.footer{
+   background: url(img/background1.png);
+   width:1920px;
+   height: 129px;
+}
+.left{
+   float:left;
+   color:#ff934c;
+   font: 24px Calibri; 
+   margin-top: 57px;
+}
+.right{
+   float:right;
+   color:#ffbd8c;
+   font: 22px Calibri; 
+   
+   margin-top: 57px;
+   margin-right:10px;
+}
+.right b{
+   text-decoration:underline;
+   color:#ff934c;
+}
+.youCons{
+   margin-right:500px;
+   float:right;
+   width: 390px;
+   height: 537px;
+   margin-top:69px;
+}
+.youCons h3{
+   font:40px Calibri Bold sans-serif;
+   color:#31bfee;
+   padding-bottom:8px;
+}
+.youCons h4{
+   font:27px Calibri Bold sans-serif;
+   color:#31bfee;
+   padding-bottom:8px;
+}
+.youCons p{
+   color:#6f6f6f;
+}
+.youCons .text1{
+   font: 18px Calibri Regular ; 
+   color: #a0a0a0;
+   width: 358px;
+   height: 45px;
+   margin-bottom:14px;
+}
+.question p{
+   font:22px Calibri sans-serif;
+}
+.question{
+   font:18px Calibri;
+   width:358px ;
+   height:107px ;
+   color: #a0a0a0;
+   margin-bottom:16px;
+}
+.bquestion{
+   font: 24px Mariad Pro Semibold sans-serif;
+   color:white;
+   width: 254px;
+   height: 43px;
+   margin-left:50px;
+   #ffb76b; /* Old browsers */
+background: -moz-radial-gradient(center, ellipse cover, #ffb76b 0%, #ffaa46 0%, #ffaa46 33%, #ff913c 98%, #ff913c 98%, #ff913c 99%, #ff913c 99%, #fd8334 100%, #ff913c 100%, #ff913c 100%, #ff913c 100%, #ff913c 100%, #ffaa46 100%, #ffaa46 104%); /* FF3.6+ */
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#ffb76b), color-stop(0%,#ffaa46), color-stop(33%,#ffaa46), color-stop(98%,#ff913c), color-stop(98%,#ff913c), color-stop(99%,#ff913c), color-stop(99%,#ff913c), color-stop(100%,#fd8334), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ff913c), color-stop(100%,#ffaa46), color-stop(104%,#ffaa46)); /* Chrome,Safari4+ */
+background: -webkit-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* Chrome10+,Safari5.1+ */
+background: -o-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* Opera 12+ */
+background: -ms-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* IE10+ */
+background: radial-gradient(ellipse at center, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffaa46',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

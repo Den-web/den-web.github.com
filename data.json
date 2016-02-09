@@ -1,0 +1,84 @@
+
+{
+    "timeline":
+    {
+        "headline":" Мое Портфолио!",
+        "type":"default",
+		"startDate":"2013,09",
+		"text":"<i><span class='c1'> WEB-den </span> <span class='c2'>Front-END  Developer</span></i>",
+		"asset":
+        {
+            "media":"assets/img/notes.png",
+            "credit":"",
+            "caption":""
+        },
+        "date": [
+            {
+                "startDate":"2014,10",
+                "headline":"Сайт фирмы по дизайну и ремонту",
+                "text":"Создание адаптивного и валидного одностраничного сайта с анимацией.",
+                "asset":
+                {
+                    "media":"assets/img/shots/disainer.JPG",
+                    "credit":"<a href='portfolio/iilivo/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,9",
+                "headline":"Иллюстрация для крупного клиента Ваш новый дом.",
+                "text":"",
+                "asset":
+                {
+                    "media":"assets/img/shots/new_house.jpg",
+                    "credit":"<a href='portfolio/new_house/glavnaya .html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,8",
+                "headline":"NataBench организация свадеб",
+                "text":"Очень красивый LandingPage",
+                "asset":
+                {
+                    "media":"assets/img/shots/Nata_bench.JPG",
+                    "credit":"<a href='portfolio/Nata_bench/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,6",
+                "headline":"Allegro верстка сайта автомобильных запчастей",
+                "text":"",
+                "asset":
+                {
+                    "media":"assets/img/shots/pet___you.jpg",
+                    "credit":"<a href='portfolio/Alegro/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,3",
+                "headline":"Южный тур",
+                "text":"",
+                "asset":
+                {
+                    "media":"assets/img/shots/summer_tur.jpg",
+                    "credit":"<a href='portfolio/summer_tur/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2014,2",
+                "headline":"Развитые социальные сети",
+                "text":"",
+                "asset":
+                {
+                    "media":"assets/img/shots/Soc_seti.jpg",
+                    "credit":"<a href='portfolio/soc_seti/index.html'>Автор верстки WEB-den</a>",
+                    "caption":""
+                }
+            }   
+        ]
+    }
+}
