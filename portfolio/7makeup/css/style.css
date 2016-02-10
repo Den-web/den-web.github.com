@@ -1290,7 +1290,7 @@ img.img{
   .block_s_otzivami{
     background: #fff;
     width: 1200px;
-    height: 1719px;
+    height: auto;
 
   }
   .block_s_otzivami h2{
@@ -1321,7 +1321,7 @@ img.img{
   background: #665B5B
  }
  .block_s_otzivami button{
-    margin-bottom: 50px;
+    margin-bottom: 180px;
  }
 
  .cont_meropr_slid{
