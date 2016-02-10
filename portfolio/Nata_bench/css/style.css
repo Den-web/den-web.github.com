@@ -4,20 +4,15 @@
 	outline: 0;
 }
 body {
-	height: 100%;
-	width: 100%;
+	height: 8204px;
+	width: 1920px;
 }
 .head{
-  height: 182px;
+   height: 182px;
 	width: 1920px;
 	background: url(img/background1.png);
 	border-bottom: 5px solid #fabe86;
 }
-
-.container{
-    width: 100%;
-}
-
 .content{
 	width: 980px;
 	margin: 0 auto;
@@ -83,18 +78,18 @@ body {
     height: 326px;
     float: right;
     clear: right;
-    position: relative;
+    position:relative;
 }
 .video{
     border: 4px #ff8938;
-    width: 410px;
+    Width: 410px;
     height: 298px;
 }
 .date{
-    position: relative;
+    position:absolute;
     float:right;
-    right: -374px;
-    top: -171px;
+    margin-right: -10px;
+    margin-top: -200px;
     width: 360px;
     height: 160px;
 }

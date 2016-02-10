@@ -74,7 +74,9 @@ menu{
 		padding: 		121px 10px 0 10px;
 			
 	}
-	
+	ul{
+		width: 100%;
+	}
 	li {
 		width: 			19%;
     	display: 		inline-block; /* Строчно-блочные элементы */
@@ -103,6 +105,7 @@ menu{
    
 .bg{
 	background: #f8f6f6;
+	height: auto;
 
 }
    
@@ -153,111 +156,25 @@ menu{
 	}	
 
 h2{
-		color: 			#969696;
-		font: 			32px Chunkfive, Arial, Helvetica, sans-serif;
-		border-top: 	2px solid #a8a7a7;
-		border-bottom: 	2px solid #a8a7a7;
-		width: 			526px;
-		height: 		61px;
-		padding-top: 	8px;
-	}
-	
-
-.bloc2{
-	width: 				920px;
-	height: 			719px;
+	color: 			#969696;
+	font: 			32px Chunkfive, Arial, Helvetica, sans-serif;
+	border-top: 	2px solid #a8a7a7;
+	border-bottom: 	2px solid #a8a7a7;
+	width: 			100%;
+	height: 		61px;
+	padding-top: 	8px;
+	text-align:  	center;
 }
-
-.left{
-		float: 			left;
-		width:      	602px;
-  		height:     	677px;
-	}
-	
-	.snews1{
-			float: 		left;
-			width:     	291px;
-  			height:    	397px;
-	}
-		
-		.snews1 img{
-			background: url(../image/img3.jpg) no-repeat;
-			width:     	289px;
-  			height:    	227px;
-			}
-			
-		.snews1 h3{
-			font: 		18px Chunkfive, Arial, Helvetica, sans-serif;
-			color: 		#5f5d5e;
-		}
-		
-		.snews1 p{
-			font: 		12px Chunkfive, Arial, Helvetica, sans-serif;
-			color: 		#767874;
-			width: 		287px;
-		}
-
-.snews2{
-			float: 		left;
-			width:     	291px;
-  			height:    	397px;
-	}
-		
-		.snews2 img{
-			background: url(../image/img4.jpg) no-repeat;
-			width:     	289px;
-  			height:    	227px;
-			}
-			
-		.snews2 h3{
-			font: 		18px Chunkfive, Arial, Helvetica, sans-serif;
-			color: 		#5f5d5e;
-			width: 		287px;
-		}
-		
-		.snews2 p{
-			font: 		12px Chunkfive, Arial, Helvetica, sans-serif;
-			color: 		#767874;
-			width: 		287px;
-		}
-		
-		.popular{
-			background: url(../image/img5.jpg) no-repeat;
-			width:     	596px;
-  			height:    	247px;
-		}
-
-.right{
-		float: 			right;
-		width:      	288px;
-  		height:     	677px;
-	}
-	
-	.right img{
-			background: url(../image/img6.jpg) no-repeat;
-			width:     	288px;
-  			height:    	526px;
-			}
-			
-		.right h3{
-			font: 		18px Chunkfive, Arial, Helvetica, sans-serif;
-			color: 		#5f5d5e;
-		}
-		
-		.right p{
-			font: 		12px Chunkfive, Arial, Helvetica, sans-serif;
-			color: 		#767874;
-			width: 		287px;
-			height: 	98px;
-		}
 		
 footer{
 		font: 			12px BebasNeue, sans-serif; /* Гарнитура текста */ 
 		color: 			white;
 		background: 	#bbb8b8;
-		height: 		115px;
-		padding: 		49px;
-		
+		height: 		auto;
+		padding: 		17px;
+		position: fixed;
+		bottom: 0;
+		width: 100%;
 	}
 	
 .house{
@@ -325,7 +242,7 @@ footer{
 			}
 			
 			.img6a{
-				background: url(../image/img6.jpg) no-repeat;
+				background: url('../image/img6.jpg') no-repeat;
 				width: 		285px;
 				height: 	459px;
 			}
@@ -476,9 +393,6 @@ footer{
 		margin-left: 		5px;
 	}
 	
-	button{
-		float: 				right;
-	}
 
 	.map{
 		background: 		url(../image/map.jpg) no-repeat;
@@ -490,7 +404,7 @@ footer{
 	.l_contact{
 	
 		width: 				210px;
-		height: 			456px;
+		height: 			auto;
 	}	
 		
 	.l_contact h2{
