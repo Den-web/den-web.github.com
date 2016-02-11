@@ -10,14 +10,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script language="javascript" type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
 
   </head>
   <body>
-  	<div class="container-fluid">
+  	<div id="wrapper" class="container-fluid">
 <!--================== header ======================-->
 
      <div class="head">
@@ -31,22 +27,25 @@
         	
         </div>
         
-        <menu class="content">
-        	<ul>
-                <li><a href="glavnaya .html">ГЛАВНАЯ</a></li>
-                <li><a href="Arenda.html">АРЕНДА</a></li>
-                <li class="active"><a href="prodaetsa.html">ПРОДАЕТСЯ</a></li>
-                <li><a href="contact.html">КОНТАКТЫ</a></li>
-                <li><a href="O nas.html">О НАС</a></li>
-            </ul>
+        <menu id="wrapper" class="content">
+          <ul id="nav">
+            <li><a href="glavnaya.html">ГЛАВНАЯ</a></li>
+            <li><a href="Arenda.html">АРЕНДА</a></li>
+            <li class="active"><a href="prodaetsa.html">ПРОДАЕТСЯ</a></li>
+            <li><a href="contact.html">КОНТАКТЫ</a></li>
+            <li><a href="O_nas.html">О НАС</a></li>
+          </ul>
         </menu>
     
-     </div>
+      </div>
      
-     <!--===================== content ====================-->
+    </div>
 
+<!--================== content ==========================-->
+
+   <div id="content" class="content"> 
 	 <div class="bg">    
-	     <div class="content">
+	     
 	     	<div class="housep">
 		     	<h2>Дома <b>на продажу</b></h2>
 		     	<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов.</p>
@@ -162,5 +161,10 @@
 	  	</footer>
   
     </div> 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
 </body>
 </html>

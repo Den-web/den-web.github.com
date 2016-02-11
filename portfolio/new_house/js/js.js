@@ -1,6 +1,9 @@
+$(document).ready(function(){
+
 /*preloader страницы*/
 
-	;$(window).on('load', function () {
+
+	$(window).on('load', function () {
 	    var $preloader = $('#page-preloader'),
 			$spinner   = $preloader.find('.spinner');
 	    $spinner.fadeOut();
@@ -9,7 +12,7 @@
 
 /* Scroll page*/
 
-	$(document).ready(function(){
+	
 		//Обработка нажатия на кнопку "Вверх"
 		$("#up").click(function(){
 			//Необходимо прокрутить в начало страницы
@@ -26,24 +29,38 @@
 			var scrollTime=(height-curPos)/1.73;
 			$("body,html").animate({"scrollTop":height},scrollTime);
 		});
+	
+
+	//постраничная навигация
+	var hash = window.location.hash.substr(1);
+	var href = $('#nav li a').each(function(){
+		var href = $(this).attr('href');
+		if(hash==href.substr(0,href.length-5)){
+			var toLoad = hash+'.html #content';
+			$('#content').load(toLoad)
+		}											
 	});
 
-/* gmap3 Google*/
+	$('#nav li a').click(function(){
+								  
+		var toLoad = $(this).attr('href')+' #content';
+		$('#content').hide('fast',loadContent);
+		$('#load').remove();
+		$('#wrapper').append('<span id="load">LOADING...</span>');
+		$('#load').fadeIn('ease');
+		window.location.hash = $(this).attr('href').substr(0,$(this).attr('href').length-5);
+		function loadContent() {
+			$('#content').load(toLoad,'',showNewContent())
+		}
+		function showNewContent() {
+			$('#content').show('fast',hideLoader());
+		}
+		function hideLoader() {
+			$('#load').fadeOut('fast');
+		}
+		return false;
+		
+	});
 
 
-	$("#map").show().gmap3({
-    map:{
-      address:"POURRIERES, FRANCE",
-      options:{
-        zoom:4,
-        mapTypeId: google.maps.MapTypeId.SATELLITE,
-        mapTypeControl: true,
-        mapTypeControlOptions: {
-          style: google.maps.MapTypeControlStyle.DROPDOWN_MENU
-        },
-        navigationControl: true,
-        scrollwheel: true,
-        streetViewControl: true
-      }
-    }
-  });
+});

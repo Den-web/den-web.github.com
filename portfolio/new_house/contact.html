@@ -10,38 +10,31 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script language="javascript" type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
-    <!-- Google map -->
-    <script language="javascript" type="text/javascript" src="js/gmap3.min.js"></script>
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
 
   </head>
   <body>
 
-    <div class="container"></div>
+    <div id="wrapper" class="container"></div>
 <!--================ header =================================-->
 
      <div class="head">
      
         <div class="logo">
         
-        	<a href="glavnaya .html">
+          <a href="glavnaya .html">
               <h1>Ваш новый <b>дом</b></h1>
               <p>Ильичевский сайт недвижимости</p>
           </a>
-        	
+          
         </div>
         
-        <menu class="content">
-          <ul>
-            <li><a href="glavnaya .html">ГЛАВНАЯ</a></li>
+        <menu id="wrapper" class="content">
+          <ul id="nav">
+            <li><a href="glavnaya.html">ГЛАВНАЯ</a></li>
             <li><a href="Arenda.html">АРЕНДА</a></li>
             <li><a href="prodaetsa.html">ПРОДАЕТСЯ</a></li>
             <li class="active"><a href="contact.html">КОНТАКТЫ</a></li>
-            <li><a href="O nas.html">О НАС</a></li>
+            <li><a href="O_nas.html">О НАС</a></li>
           </ul>
         </menu>
     
@@ -51,17 +44,17 @@
 
 <!--================== content ==========================-->
 
+   <div id="content" class="content">  
     <div class="bg"> 
 
-      <div class="content">  
 
         <div class="row">
          
-       		<div class="col-md-3">
-       		
-         		<div class="l_contact">
+          <div class="col-md-3">
+          
+            <div class="l_contact">
               
-    	     		<h2>Контакты</h2>
+              <h2>Контакты</h2>
               <img></img>
 
               <address class="address-1">
@@ -75,9 +68,9 @@
                     <span>Skype:</span> <a href="#" class="mail-1">@skypename</a></div>
               </address>
               
-    	     	</div>
-    	     	
-    	    </div>
+            </div>
+            
+          </div>
           <div class="col-md-9">
               <form>
                   <legend>Форма заказа жилья</legend>
@@ -104,14 +97,18 @@
         </div>
 
       </div>
-    	    
+          
     </div>
    
 <!--================= footer ========================-->
 
     <footer>
-    		<p class="content">© 2023 Ваш новый дом. Сайт создан Den-Web</p>
+        <p class="content">© 2023 Ваш новый дом. Сайт создан Den-Web</p>
     </footer>
   </div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script language="javascript" type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="js/js.js"></script>
 </body>
 </html>
