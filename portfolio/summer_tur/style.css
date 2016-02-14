@@ -1,5 +1,7 @@
-	src:url(fonts/svoboda.ttf);
+@font-face {
+	src:url('fonts/svoboda.ttf');
 	font-family:svoboda;
+}
 * {
 margin:0;
 padding:0;
@@ -25,21 +27,19 @@ header {
 	padding-left:26px;
 	}
 .topmenu {
-	float:left;
-	font-family:svoboda;
-	font-size:24px;
-	line-height:48px;
-	display:block;
-	text-decoration:none;
-	color:#381300;
-	margin:5px 6px;
-	padding:0 8px;
+	float: left;
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 48px;
+    display: block;
+    text-decoration: none;
+    color: #381300;
+    margin: 4px 0px;
+    padding: 0 9px;
 }
 a:hover {
 	color:white;
 	background:#381300;
-}
-@font-face {
 }
 .tur {
 	background: url('img/sprite.png') no-repeat 0 -104px;
