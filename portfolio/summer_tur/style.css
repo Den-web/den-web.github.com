@@ -1,3 +1,5 @@
+	src:url(fonts/svoboda.ttf);
+	font-family:svoboda;
 * {
 margin:0;
 padding:0;
@@ -38,8 +40,6 @@ a:hover {
 	background:#381300;
 }
 @font-face {
-	src:url(fonts/svoboda.ttf);
-	font-family:svoboda;
 }
 .tur {
 	background: url('img/sprite.png') no-repeat 0 -104px;
