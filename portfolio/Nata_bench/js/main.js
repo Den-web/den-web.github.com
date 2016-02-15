@@ -1,3 +1,33 @@
+$(document).ready(function() {
+	var clock;
+	clock = $(".clock").FlipClock({
+		clockFace: "TwentyFourHourClock",
+		autostart: false,
+		callbacks: {
+			stop: function(){
+				$(".message").html("");
+			}
+		}
+	});
+
+	var dt = "June 01 2016 20:22:48";
+	var first = new Date(dt);
+	var last = Date.now();
+	var remaining = first - last;
+	remaining /=1000;
+
+	if (first > last) {
+		clock.setTime(remaining);
+	} else {
+		clock.setTime(first);
+	};
+
+	
+	clock.setCountdown(true);
+	clock.start();
+
+});
+
 var wow = new WOW(
   {
     boxClass:     'wow',      // animated element css class (default is wow)

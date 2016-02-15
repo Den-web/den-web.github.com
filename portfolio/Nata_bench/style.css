@@ -213,8 +213,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', end
    margin-top:px;
 }
 .date1{
-   margin-left: 550px;
-   margin-top: 200px;
+   margin-left: 543px;
+   margin-top: 120px;
 }
 .photo{
    background: url(img/photo.png) no-repeat;
@@ -331,4 +331,10 @@ background: -o-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffa
 background: -ms-radial-gradient(center, ellipse cover, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* IE10+ */
 background: radial-gradient(ellipse at center, #ffb76b 0%,#ffaa46 0%,#ffaa46 33%,#ff913c 98%,#ff913c 98%,#ff913c 99%,#ff913c 99%,#fd8334 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ff913c 100%,#ffaa46 100%,#ffaa46 104%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ffaa46',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.clock{
+  position: relative;
+  top: 75%;
+  left: 2%;
 }
