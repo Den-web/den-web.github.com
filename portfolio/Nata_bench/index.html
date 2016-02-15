@@ -1,30 +1,31 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Nata Bench</title>
-        <link rel="stylesheet" href="style.css"/>
-        <link rel="stylesheet" href="css/normalize.css"/>
         <meta name="viewport" charset="utf-8" />
+        <title>Nata Bench</title>
+        <link rel="stylesheet" href="css/normalize.css"/>
+  		<link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="style.css"/>
 	</head>
     <body>
 		  <div class="container"> 
 		    <div class="head">
 			      <div class="content">
-				         <div class="nata"></div>
-				         <div class="nata1"></div>
-				         <div class="number"></div>
-				         <div class="address"></div>
+				         <div class="nata animated fadeInUp"></div>
+				         <div class="nata1 animated fadeInUp"></div>
+				         <div class="number animated fadeInUp"></div>
+				         <div class="address animated fadeInUp"></div>
 		      	</div>
         </div>
         
         <div class="up"></div>
         <div class="maried">
             <div class="content">
-                <div class="heart"></div>
+                <div class="heart animated fadeInRight"></div>
                 <div class="heart1"></div>
-                <video class="video"   poster="img/video.jpg"  src="//www.youtube.com/embed/kX9UXOKKz6k">
+                <video class="video animated fadeInLeft"   poster="img/video.jpg"  src="//www.youtube.com/embed/kX9UXOKKz6k">
                 </video>
-                <form class="date" action=" " method="post">
+                <form class="date animated fadeInRight" action=" " method="post">
                     <input class="text" type="text" name="name" value="Ваше ім'я"><br />
                     <input class="text"  type="text" name="number" value="Ваш телефон для зв'язку"><br />
                     <input class="button" type="button" name="button" value="ЗАМОВИТИ">
@@ -46,7 +47,7 @@
         </div>
        
       <div class="comments">
-           <div class="down"></div>
+           <div class="down animated fadeInDownBig"></div>
            <div class="content">
                 <div class="reserve"></div>
                 <div class="reserve1"></div>
@@ -56,7 +57,7 @@
         <div class="up"></div>
         <div class="action">
            <div class="content">
-              <div class="heart2"> 
+              <div class="heart2 animated fadeInRight"> 
                     <form class="date1" action="" method="post">
                     <input class="text" type="text" name="name" value="Ваше ім'я"><br />
                     <input class="text"  type="text" name="number" value="Ваш телефон для зв'язку"><br />
@@ -80,7 +81,7 @@
           <h3 align="center"><b>ВАШ ОСОБИСТИЙ<br> КОНСУЛЬТАНТ,<br>     НАТА:</b></h3>
           <p align="center"><b>телефон:</b> (067) 208-04-90 <br><b>e-mail:</b> natabench@gmail.com</p>
           <h4 align="center"><b>ЗАДАЙТЕ МЕНІ ПИТАННЯ</b></h4>
-          <form class="bgform" action="" method="post">
+          <form class="bgform animated mov" action="" method="post">
              <input class="text1" type="text" name="name" value="Ваше ім'я"><br />
              <input class="text1"  type="text" name="number" value="Ваш телефон для зв'язку"><br />
              <input class="question" type="text" name="name" value="Питання, що цікавлять"><br />
@@ -100,5 +101,8 @@
       </div>
       <div class="clearfix"></div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
