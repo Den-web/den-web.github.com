@@ -15,7 +15,7 @@ Version: 1.0
 }
 body {
   background: #bfbfbf;
-  max-width: 1200px;
+  max-width: 100%;
   color: #333;
   margin: 0 auto; 
 }
