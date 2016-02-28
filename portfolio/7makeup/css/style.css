@@ -1,4 +1,4 @@
-/*
+﻿/*
 Theme Name: 7MAKEUP
 Author: Denis Kirev
 Author URI: 
@@ -105,7 +105,7 @@ img {
     -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
     -o-background-size: 100%; /* Opera 9.6+ */
     background-size: 100%; /* Современные браузеры */
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
 
 }
