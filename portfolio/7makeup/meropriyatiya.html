@@ -21,8 +21,7 @@
 
 
 <!-- Add jQuery library -->
-	<script type="text/javascript" src="fancybox/lib/jquery-1.10.1.min.js"></script>
-	<script type="text/javascript" src="js/jquery-1.8.2.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
 	<!-- Add mousewheel plugin (this is optional) -->
 	<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
@@ -234,24 +233,9 @@
 	<script src="js/jquery.bxslider.js"></script>
 	<script>
 		$(document).ready(function(){
-			  $('.slider').bxSlider();
-			});
-		
-		$(document).ready(function() {
-				$(".fancybox-thumb").fancybox({
-					prevEffect	: 'none',
-					nextEffect	: 'none',
-					helpers	: {
-						title	: {
-							type: 'outside'
-						},
-						thumbs	: {
-							width	: 240,
-							height	: 194
-			}
-		}
-	});
-});
+			$('.slider').bxSlider();
+			
+		});
 	</script>
 	</body>
 </html>
