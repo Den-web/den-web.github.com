@@ -176,6 +176,15 @@
         color:#1b87cf;
     
     }
+    ul.hor_menu li a:hover{
+    	color: rgb(176, 174, 174);
+    }
+    .ver_menu ul li a:hover{
+    	color: black;
+    }
+    .menu_ver li a:hover{
+    	color: #ea6720;
+    }
     ul.hor_menu li  a:after{
         content:'';
         width:5px;
