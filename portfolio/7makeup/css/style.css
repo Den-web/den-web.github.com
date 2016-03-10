@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: 7MAKEUP
 Author: Denis Kirev
 Author URI: 
@@ -9,6 +9,7 @@ Version: 1.0
 
 /* `Basic HTML
 ----------------------------------------------------------------------------------------------------*/
+
 *{
     margin:0;
     padding:0;
@@ -19,7 +20,22 @@ body {
   color: #333;
   margin: 0 auto; 
 }
-
+.row{
+	margin-right:0 !important;
+	margin-left: 0 !important;
+}
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    background-color: #72B77B;
+}
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle){
+   background-color: #72B77B;
+}
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+    background-color: #72B77B;
+}
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
+    background-color: #72B77B;
+}
 p{
   color:black;
 }
@@ -126,7 +142,7 @@ header{
 
 .background{
     background: url(../image/head_girl.jpg) no-repeat;
-    width: 1200px;
+    width: 100%;
     
 }
 
@@ -136,14 +152,14 @@ header{
   background-color: rgba(128,126,123,0.7); 
 }
 #content.default {
-    width:100%;
+    width:79.5%;
 }
 #content.fixed {
     background: #999999;
     position:fixed;
     top:0;
     margin:0 auto;
-    width:100%;
+    width:79.5%;
     z-index: 9999;
     -moz-box-shadow: 5px 5px 20px #333;
     -webkit-box-shadow: 5px 5px 20px #333;
@@ -155,10 +171,7 @@ header{
 
 #content{
   width: 100%;
-  margin: 0 !important;
-  padding: 0 !important;
-  width: 1200px;
-  height: 80px;
+  height: auto;
 }
 .content_laboratory{
   background-color: rgb(115,115,115);
@@ -173,14 +186,10 @@ header{
   float: left;
 }
 menu{
-
-    
-    height: 70px;
     padding: 27px 0 0 0;
     float: left;
 }
 menu ul{
-    
     margin: 0 auto;
     float: left;
 }
@@ -259,10 +268,8 @@ menu ul li a:hover{
    }
 
 .header_bottom{
-  
-  margin : 0px auto; 
-  max-width: 1380px;
-  height: 610px;
+  	max-width: 100%;
+	height: auto;
 }
 .video{
   width: 495px;
@@ -272,11 +279,10 @@ menu ul li a:hover{
 }
 
 .form_soc_seti{
-  float: right;
-  width: 501px;
-  height: 400px;
+	margin: 10%;
+  height: auto;
   border: 1px solid #71b47a; /* Параметры рамки */
-  margin: -520px 85px;
+  
 }
 .join{
   
@@ -391,15 +397,6 @@ font-family: 'icomoon';
   border-radius: 5px;
 }
 
-.btn-2d:hover {
-  box-shadow: 0 8px #5e9665;
-  top: -2px;
-}
-
-.btn-2d:active {
-  box-shadow: 0 0 #5e9665;
-  top: 6px;
-}
 /* Button 1 */
 .btn-1 {
   background: rgba(115,115,115,0.1);
@@ -418,30 +415,7 @@ font-family: 'icomoon';
 .second{
   background: #807d77;
   width: 100%;
-  height: 478px;
-}
-.f{
-  text-transform: lowercase;
-  font: 40px OpenSans, sans-serif;
-  width: 56px;
-  height: 46px;
-}
-.b{
-
-  font: 40px OpenSans, sans-serif;
-  width: 56px;
-  height: 46px;
-}
-.you{
-
-  font: 40px OpenSans, sans-serif;
-  width: 56px;
-  height: 46px;
-}
-.inst{
-  font: 40px OpenSans, sans-serif;
-  width: 56px;
-  height: 46px;
+  height: auto;
 }
 /*--------2block-------*/
 h2{
@@ -451,17 +425,14 @@ h2{
   text-align: center;
 }
 .fact{
-  width: 920px;
-  height: 170px;
+  width: 100%;
+  height: auto;
   margin: 70px 0 0 220px;
-}
-.fact button{
-  margin:60px 200px;
 }
 .our{
   padding: 5px;
   width: 140px;
-  height: 156px;
+  height: auto;
   float:left;
 }
 .our_mil{
@@ -497,8 +468,8 @@ h2{
 
 /*--------3block-------*/
 .meropriy{
-  width: 1094px;
-  height:458px;
+  width: 100%;
+  height:auto;
   margin:120px 0 0 110px;
 }
 .our_seminar{
@@ -539,8 +510,7 @@ display: block;
 .four_block{
   background: url(../image/block_4.jpg) no-repeat;
   width:100%; 
-  height:626px;
-  margin-top: -158px;
+  height:auto;
 }
 .four_block h2{
   font: 40px OpenSans, sans-serif;
@@ -554,17 +524,13 @@ display: block;
 .laboratory{
   position: relative;
   width: 100%;
-  height: 478px;
-  margin-right: 60px
+  height: auto;
 }
 .our_article{
 margin-left: 30px;
   width: 353px;
-  height: 522px;
+  height: auto;
   float: left;
-}
-.laboratory button{
-  margin-left: -10px;
 }
 .our_article h4{
   font: 30px OpenSans, sans-serif;
@@ -574,7 +540,7 @@ margin-left: 30px;
 .video_seminar{
   margin-left: 30px;
   width: 376px;
-  height: 478px;
+  height: auto;
   float: left;
 }
 .video_seminar h4{
@@ -582,13 +548,10 @@ margin-left: 30px;
   color:black;
   text-align: right;
 }
-.video_seminar img{
-  margin-left: 15px;
-}
 .fotootchet{
   margin-left: 40px;
   width: 353px;
-  height: 478px;
+  height: auto;
   float: left;
 }
 .fotootchet h4{
@@ -653,11 +616,11 @@ margin-left: 30px;
   font: 40px OpenSans, sans-serif;
   color: black;
   text-align: left;
-  margin-bottom: 50px;
 }
 
 .light_orange{
   background: #f6de8e;
+  width: 100%;
   height: auto;
 }
             .four_block h5{
@@ -1174,9 +1137,6 @@ h5{
   font: 16px Helvetica, sans-serif;
   text-align: center;
 }
-.center{
-  margin: 40px 0 40px 450px;
-}
 
 
 /*--------6block-------*/
@@ -1184,7 +1144,7 @@ h5{
 .test{
   background: url(../image/ochki.jpg)50% 50% no-repeat;
   width: 100%;
-  height: 333px;
+  height:auto;
 }
 .test button{
   margin-left: 40px;
