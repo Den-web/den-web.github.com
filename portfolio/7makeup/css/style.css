@@ -62,7 +62,7 @@ ul li{
 
 a {
   cursor: pointer;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
@@ -74,12 +74,12 @@ small {
   font-size: 11px;
 }
 .navbar-default {
-    background-color: #737373;
+    background-color: #737373 !important ;
 }
 .navbar-brand {
     float: left;
-    height: auto;
-    padding: 5px 30px;
+    height: auto!important;
+    padding: 5px 30px!important;
 }
 /* `Misc Classes
 ----------------------------------------------------------------------------------------------------*/
@@ -224,9 +224,7 @@ menu ul li a{
     color: #ccc;
 }
 .active_menu{
-    width: 100%;
     height:auto;
-    padding: 12px 6px; /* Поля вокруг текста */
     border: 1px solid #71b47a; /* Рамка вокруг текста */
     border-radius: 8px;
     -moz-border-radius: 8px;
