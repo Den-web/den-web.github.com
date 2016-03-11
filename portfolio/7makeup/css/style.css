@@ -53,7 +53,7 @@ h6, {
   
 }
 p{
-  color: white;
+  color: #fff !important;
     margin-bottom: 15px;
 }
 ul li{
