@@ -67,7 +67,7 @@ a {
 }
 
 a:hover {
-  color: #c60;
+  color: #ccc !important;
 }
 
 small {
@@ -166,7 +166,7 @@ header{
     position:fixed;
     top:0;
     margin:0 auto;
-    width:79.5%;
+    width:90%;
     z-index: 9999;
     -moz-box-shadow: 5px 5px 20px #333;
     -webkit-box-shadow: 5px 5px 20px #333;
