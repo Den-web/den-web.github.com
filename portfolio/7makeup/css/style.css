@@ -62,7 +62,7 @@ ul li{
 
 a {
   cursor: pointer;
-  color: #ccc;
+  color: #fff;
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 
@@ -73,7 +73,14 @@ a:hover {
 small {
   font-size: 11px;
 }
-
+.navbar-default {
+    background-color: #737373;
+}
+.navbar-brand {
+    float: left;
+    height: auto;
+    padding: 5px 30px;
+}
 /* `Misc Classes
 ----------------------------------------------------------------------------------------------------*/
 
@@ -152,7 +159,7 @@ header{
   background-color: rgba(128,126,123,0.7); 
 }
 #content.default {
-    width:79.5%;
+    width:100%;
 }
 #content.fixed {
     background: #999999;
@@ -217,13 +224,10 @@ menu ul li a{
     color: #ccc;
 }
 .active_menu{
-    width: auto;
-    height: 47px;
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ справа */
+    width: 100%;
+    height:auto;
     padding: 12px 6px; /* Поля вокруг текста */
     border: 1px solid #71b47a; /* Рамка вокруг текста */
-    padding: 12px 6px; /* Поля вокруг текста */
     border-radius: 8px;
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
