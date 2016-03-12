@@ -50,7 +50,6 @@ h6, {
   font-family: 'Segoe UI';
   font-size: 100%/1.5em;
   color: white;
-  
 }
 p{
   color: #fff !important;
@@ -80,6 +79,10 @@ small {
     float: left;
     height: auto!important;
     padding: 5px 30px!important;
+}
+.navbar-nav {
+    float: left;
+    margin: 8px !important;
 }
 /* `Misc Classes
 ----------------------------------------------------------------------------------------------------*/
