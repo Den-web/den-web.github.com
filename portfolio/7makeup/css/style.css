@@ -52,7 +52,7 @@ h6, {
   color: white;
 }
 p{
-  color: #fff !important;
+  color: #fff;
     margin-bottom: 15px;
 }
 ul li{
@@ -597,14 +597,14 @@ margin-left: 30px;
 }
 .probirca_top{
   background: url(../image/probirka_top.png) no-repeat;
-  margin: -50px 0 0 300px  ;
+  margin: 0px 0 0 300px  ;
   width: 128px;
   height: 92px;
   position: absolute;
 }
 .probirca_bottom{
   background: url(../image/probirka_bottom.png) no-repeat;
-  margin: -135px 0 0 30px  ;
+  margin: -135px 0 0 200px  ;
   width: 67px;
   height: 142px;
   position: absolute;
@@ -1151,9 +1151,6 @@ h5{
   width: 100%;
   height:auto;
 }
-.test button{
-  margin-left: 40px;
-}
 .sixst h2{
   padding-top: 30px;
   font: 30px OpenSans,sans-serif;
@@ -1166,8 +1163,9 @@ h5{
   color:black;
 }
 .size{
-  width: 382px;
-  height: 238px;
+  width: 100%;
+  height: auto;
+  text-align: center;
   margin: 0 auto;
 }
 /*-----------Block MAP-----------*/
@@ -1767,4 +1765,8 @@ SHOULDER_PAIN_END*/
      font-size:17.5px;
     width:238px;
     height:38px;
+}
+.btn {
+    display: block;
+    margin-bottom: 30px;
 }
