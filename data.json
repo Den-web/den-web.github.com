@@ -13,7 +13,18 @@
             "caption":""
         },
         "date": [
-            	{
+            {
+                "startDate":"2015,7",
+                "headline":"Тема Bootstrap html для создания экслюзивного адаптивного сайта",
+                "text":"Тема Bootstrap!",
+                "asset":
+                {
+                    "media":"assets/img/shots/magazine.jpg",
+                    "credit":"<a href='http:portfolio/theme_bootstrap/index.html'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            }, 
+            {
                 "startDate":"2015,5",
                 "headline":"Интернет магазин нижнего белья на Wordpress",
                 "text":"Многофункциональный интернет магазин!",
