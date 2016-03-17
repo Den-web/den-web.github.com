@@ -1,0 +1,7 @@
+ .navbar-inverse .navbar-nav > .active > a {
+    color: #fff;
+    background-color: #A82121;
+}
+ .btn-primary{
+ 	background-color: #A82121;
+ }
