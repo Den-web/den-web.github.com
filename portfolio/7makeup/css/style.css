@@ -68,7 +68,9 @@ a {
 a:hover {
   color: #ccc !important;
 }
-
+.container {
+    padding-left: 0px !important;
+}
 small {
   font-size: 11px;
 }
