@@ -663,7 +663,7 @@ margin-left: 30px;
 .four_block_video button{
   font: 24px OpenSans, bold, sans-serif;
   padding: 10px;
-  margin: 6% 37%;
+  margin: -2% 37%;
 
 }
 .four_block_video button img{
@@ -751,7 +751,7 @@ margin-left: 30px;
 .four_block_albom button{
   font: 24px OpenSans, bold, sans-serif;
   padding: 10px;
-  margin: 6% 35%;
+  margin: -2% 35%;
 
 }
 .four_block_albom button img{
@@ -1763,5 +1763,4 @@ SHOULDER_PAIN_END*/
 }
 .btn {
     display: block;
-    margin-bottom: 30px;
 }
