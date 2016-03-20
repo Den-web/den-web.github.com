@@ -1262,20 +1262,20 @@ margin: 0 auto;
 }
 .block1{
     position:absolute;
-    width:300px;
-    height:250px;
-    background:#bfbfbf;
-    margin-top:370px;
+    width: 30%;
+    height: 240px;
+    background: #bfbfbf;
+    margin-top: 391px;
     z-index:999;
 }
 .block2{
     position:absolute;
-    width:300px;
-    height:250px;
-    background:#bfbfbf;
-    margin-top:370px;
-    z-index:999;
-    margin-left:900px;
+    width: 30%;
+    height: 240px;
+    background: #bfbfbf;
+    margin-top: 389px;
+    z-index: 999;
+    margin-left: 840px;
 }
 .stasiya img{
   padding:15px;
