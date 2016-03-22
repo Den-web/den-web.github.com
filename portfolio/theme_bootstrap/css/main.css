@@ -32,6 +32,9 @@ body {
 	min-width: 320px;
 	position: relative;
 }
+legend{
+	font: 23px;
+}
 .hidden {
 	display: none;
 }
