@@ -47,3 +47,11 @@ body {
 th{
 	text-align: center;
 }
+.bg{
+	background-color: #C8CEA1;
+	padding: 20px 0;
+}
+.bg1{
+	background-color: #3669E8;
+	padding: 20px 0;	
+}
