@@ -17,6 +17,7 @@ body{
 				width:100%; /* Width of Tab Image */
 				float: left;
 				list-style: none;
+				display:inline-block;
 			}
 			
 			.wedding ul li{
