@@ -59,7 +59,7 @@
     width: 6px;
 	height: 6px;
 	display: block;
-	z-index: 1000;
+	z-index: 1001;
 	border: 5px solid #1c285b;
 	
     -webkit-border-radius: 50%;
