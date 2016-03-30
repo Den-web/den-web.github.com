@@ -52,7 +52,7 @@
     -ms-transition: background-color linear 0.1s;
     transition: background-color linear 0.1s;
 }
-.sp-slideshow input + label:hover, .sp-slideshow input + label:active{
+.sp-slideshow input + label:hover, .sp-slideshow input + label:active, .sp-slideshow input + label:focus{
     position: absolute;
     bottom: 7px;
 	left: 93%;
