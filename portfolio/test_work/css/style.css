@@ -70,6 +70,7 @@ body{
 }
 .but button{
 	margin-top: 92px;
+	margin-left: 10px;
 	background-color: #1c285b;
 	border: 0;
 	color: #fff;
