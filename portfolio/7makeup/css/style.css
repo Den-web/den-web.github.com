@@ -66,10 +66,10 @@ a {
 }
 
 a:hover {
-  color: #ccc !important;
+  color: #FFF !important;
 }
 .container {
-	width: 1200px !important;
+    width: 1200px !important;
     padding-right: 0px !important;
     padding-left: 0px !important;
 }
