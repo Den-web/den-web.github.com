@@ -36,9 +36,6 @@ body {
 .btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
     background-color: #72B77B;
 }
-p{
-  color:black;
-}
 
 h1,
 h2,
@@ -87,6 +84,10 @@ small {
 .navbar-nav {
     float: left;
     margin: 8px !important;
+}
+
+.navbar-nav>li>a{
+	color: white;
 }
 /* `Misc Classes
 ----------------------------------------------------------------------------------------------------*/
