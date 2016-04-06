@@ -58,3 +58,9 @@ th{
 	background-color: #CCC;
 	padding: 20px 0;	
 }
+.navbar-default .navbar-collapse {
+    max-height: none;
+    background-color: #3f444b;
+    padding: 0 15px;
+    border: 0;
+}
