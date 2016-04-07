@@ -35,6 +35,10 @@ body {
 h2{
 	font: 2.6em;
 }
+.form{
+	font: 2.6em;
+	padding: 25px;
+}
 .hidden {
 	display: none;
 }
