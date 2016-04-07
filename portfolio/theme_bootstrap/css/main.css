@@ -40,7 +40,7 @@ h2{
 	padding: 25px;
 }
 .navbar {
-	padding-bottom: 0!important;
+	margin-bottom: 0!important;
 }
 .hidden {
 	display: none;
