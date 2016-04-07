@@ -35,6 +35,9 @@ body {
 h2{
 	font: 2.6em;
 }
+a {
+    color: #96CEFF !important;
+}
 .form{
 	font: 2.6em;
 	padding: 25px;
