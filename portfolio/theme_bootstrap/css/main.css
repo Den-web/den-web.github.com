@@ -78,6 +78,13 @@ th{
     padding-bottom: 25px;
     text-align: center;
 }
+.section2 {
+    background-color: #3C99B3;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+}
 .section8 {
     background: #fff;
 }
