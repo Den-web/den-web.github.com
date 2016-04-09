@@ -36,7 +36,7 @@ h2{
 	font: 2.6em;
 }
 a {
-    color: #96CEFF !important;
+    color: #697075 !important;
 }
 .form{
 	font: 2.6em;
@@ -101,4 +101,7 @@ th{
     padding-bottom: 40px;
     border-bottom: 1px solid #494d58;
     background-color: #494D58;
+}
+.footer a {
+	color:	#fff;
 }
