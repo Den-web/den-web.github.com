@@ -12,7 +12,19 @@
             "credit":"",
             "caption":""
         },
-        "date": [
+        "date": [email_verstka
+		
+			{
+                "startDate":"2015,8",
+                "headline":"Адаптивная верстка писем для e-mail рассылок",
+                "text":"Верстка писем при помощи Jade and Sass адаптивная и кроссбраузерная!",
+                "asset":
+                {
+                    "media":"assets/img/shots/email_scrin.jpg",
+                    "credit":"<a href='http:portfolio/email_verstka/index.html'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            }, 
             {
                 "startDate":"2015,7",
                 "headline":"Тема Bootstrap elements для создания экслюзивного адаптивного сайта",
