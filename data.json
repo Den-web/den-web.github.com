@@ -15,6 +15,17 @@
         "date": [
 		
 			{
+                "startDate":"2016,5",
+                "headline":"Адаптивная верстка фото портфолио",
+                "text":"Верстка адаптивная и кроссбраузерная!",
+                "asset":
+                {
+                    "media":"assets/img/shots/foto_ scrin.jpg",
+                    "credit":"<a href='http:portfolio/Foto_portfolio/index.html'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            }, 
+			{
                 "startDate":"2015,8",
                 "headline":"Адаптивная верстка писем для e-mail рассылок",
                 "text":"Верстка писем при помощи Jade and Sass адаптивная и кроссбраузерная!",
@@ -137,8 +148,8 @@
             },
             {
                 "startDate":"2014,3",
-                "headline":"Parallax site ",
-                "text":"base from Materialize by your site!",
+                "headline":"Южный тур",
+                "text":"",
                 "asset":
                 {
                     "media":"assets/img/shots/summer_tur.jpg",
