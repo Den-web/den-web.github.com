@@ -16,6 +16,17 @@
 		
 			{
                 "startDate":"2016,5",
+                "headline":"Адаптивная верстка",
+                "text":"Верстка под тему построеную на Bootstrap 3!",
+                "asset":
+                {
+                    "media":"assets/img/shots/pratt.png",
+                    "credit":"<a href='http:portfolio/pratt/Theme/index.html'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            }, 
+			{
+                "startDate":"2016,4",
                 "headline":"Адаптивная верстка фото портфолио",
                 "text":"Верстка адаптивная и кроссбраузерная!",
                 "asset":
@@ -26,7 +37,7 @@
                 }
             }, 
 			{
-                "startDate":"2015,8",
+                "startDate":"2016,3",
                 "headline":"Адаптивная верстка писем для e-mail рассылок",
                 "text":"Верстка писем при помощи Jade and Sass адаптивная и кроссбраузерная!",
                 "asset":
@@ -37,7 +48,7 @@
                 }
             }, 
             {
-                "startDate":"2015,7",
+                "startDate":"2016,2",
                 "headline":"Тема Bootstrap elements для создания экслюзивного адаптивного сайта",
                 "text":"Тема Bootstrap!",
                 "asset":
@@ -48,7 +59,7 @@
                 }
             }, 
             {
-                "startDate":"2015,5",
+                "startDate":"2015,12",
                 "headline":"Интернет магазин нижнего белья на Wordpress",
                 "text":"Многофункциональный интернет магазин!",
                 "asset":
@@ -59,7 +70,7 @@
                 }
             }, 
         	{
-                "startDate":"2015,4",
+                "startDate":"2015,11",
                 "headline":"Верстка главной страницы сайта",
                 "text":"Адаптивная верстка.",
                 "asset":
@@ -70,7 +81,7 @@
                 }
             }, 
         	 {
-                "startDate":"2015,3",
+                "startDate":"2015,9",
                 "headline":"Верстка главной страницы сайта",
                 "text":"Адаптивная верстка.",
                 "asset":
@@ -81,7 +92,7 @@
                 }
             }, 
             {
-                "startDate":"2015,2",
+                "startDate":"2015,7",
                 "headline":"Cайт портфолио Landing page на Wordpress",
                 "text":"Простой симпотичный сайт портфолио подходит для фотографов и веб разработчиков.",
                 "asset":
@@ -92,7 +103,7 @@
                 }
             }, 
         	{
-                "startDate":"2015,1",
+                "startDate":"2015,5",
                 "headline":"7MAKEUP",
                 "text":"Сайт индустрии красоты",
                 "asset":
@@ -103,7 +114,7 @@
                 }
             },   
             {
-                "startDate":"2014,10",
+                "startDate":"2015,3",
                 "headline":"Сайт фирмы по дизайну и ремонту",
                 "text":"Создание адаптивного и валидного одностраничного сайта с анимацией.",
                 "asset":
@@ -114,7 +125,7 @@
                 }
             },
             {
-                "startDate":"2014,9",
+                "startDate":"2015,1",
                 "headline":"Сайт систем установки оборудования! Адаптий и кроссбраузерный",
                 "text":"",
                 "asset":
@@ -125,7 +136,7 @@
                 }
             },
             {
-                "startDate":"2014,8",
+                "startDate":"2014,11",
                 "headline":"NataBench организация свадеб",
                 "text":"Очень красивый LandingPage",
                 "asset":
@@ -136,7 +147,7 @@
                 }
             },
             {
-                "startDate":"2014,6",
+                "startDate":"2014,10",
                 "headline":"Allegro верстка сайта автомобильных запчастей",
                 "text":"",
                 "asset":
@@ -147,7 +158,7 @@
                 }
             },
             {
-                "startDate":"2014,3",
+                "startDate":"2014,9",
                 "headline":"Южный тур",
                 "text":"",
                 "asset":
@@ -158,7 +169,7 @@
                 }
             },
             {
-                "startDate":"2014,2",
+                "startDate":"2014,8",
                 "headline":"Kite Coming Soon HTML Template",
                 "text":"",
                 "asset":
