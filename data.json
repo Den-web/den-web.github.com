@@ -13,7 +13,29 @@
             "caption":""
         },
         "date": [
-		
+	 
+		{
+                "startDate":"2016,9",
+                "headline":"Адаптивная верстка",
+                "text":"Интернет магазин Элитной иудаики David Roytman!",
+                "asset":
+                {
+                    "media":"assets/img/shots/pratt.png",
+                    "credit":"<a href='http://davidroytman.com/'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            }, 
+			{
+                "startDate":"2016,7",
+                "headline":"Адаптивная верстка",
+                "text":"'София Декор' сайт элитной мебели и дизайна!",
+                "asset":
+                {
+                    "media":"assets/img/shots/pratt.png",
+                    "credit":"<a href='http://sofia-decor.mcdir.ru/'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            },
 			{
                 "startDate":"2016,5",
                 "headline":"Адаптивная верстка",
