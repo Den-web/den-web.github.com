@@ -38,12 +38,12 @@
             },
 			{
                 "startDate":"2016,5",
-                "headline":"Адаптивная верстка",
-                "text":"Верстка под тему построеную на Bootstrap 3!",
+                "headline":"DSR Consierge",
+                "text":"Консьерж сайт предоставления услуг личного досуга!",
                 "asset":
                 {
                     "media":"assets/img/shots/pratt.png",
-                    "credit":"<a href='http:portfolio/pratt/Theme/index.html'>Сайт сделан WEB-den</a>",
+                    "credit":"<a href='http://dsrconcierge.com/index_ru.html'>Сайт сделан WEB-den</a>",
                     "caption":""
                 }
             }, 
