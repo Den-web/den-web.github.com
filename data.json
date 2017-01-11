@@ -71,12 +71,12 @@
             }, 
             {
                 "startDate":"2016,2",
-                "headline":"Тема Bootstrap elements для создания экслюзивного адаптивного сайта",
-                "text":"Тема Bootstrap!",
+                "headline":"Сайт корпоративного холдинга DSR",
+                "text":" Адаптивный сайт холдинга с эффектом паллакс и переходом между компаниями",
                 "asset":
                 {
                     "media":"assets/img/shots/scin.jpg",
-                    "credit":"<a href='http:portfolio/theme_bootstrap/index.html'>Сайт сделан WEB-den</a>",
+                    "credit":"<a href='http://dsrholding.com'>Сайт сделан WEB-den</a>",
                     "caption":""
                 }
             }, 
