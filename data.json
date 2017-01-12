@@ -15,7 +15,7 @@
         "date": [
 	 
 		{
-                "startDate":"2016,9",
+                "startDate":"2016,12",
                 "headline":"Разработка сайта",
                 "text":"Интернет магазин Элитной иудаики David Roytman!",
                 "asset":
@@ -26,13 +26,24 @@
                 }
             }, 
 			{
-                "startDate":"2016,7",
+                "startDate":"2016,10",
                 "headline":"Разработка сайта",
                 "text":"'София Декор' сайт элитной мебели и дизайна!",
                 "asset":
                 {
                     "media":"http://sofia-decor.mcdir.ru/img/Logotip.jpg",
                     "credit":"<a href='http://sofia-decor.mcdir.ru/'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            },
+		{
+                "startDate":"2016,8",
+                "headline":"Разработка сайта",
+                "text":"'София Декор' сайт элитной мебели и дизайна!",
+                "asset":
+                {
+                    "media":"assets/img/shots/perfuniq.jpg",
+                    "credit":"<a href='http://perfuniq.com'>Сайт сделан WEB-den</a>",
                     "caption":""
                 }
             },
