@@ -13,11 +13,10 @@
             "caption":""
         },
         "date": [
-	 
 		{
                 "startDate":"2016,12",
-                "headline":"Разработка сайта",
-                "text":"Интернет магазин Элитной иудаики David Roytman!",
+                "headline":"'David Roytman' интернет магазин",
+                "text":"Адаптивный интернет магазин Wordpress верстка и реализация темы с установкой платежной системы PayPal",
                 "asset":
                 {
                     "media":"http://davidroytman.com/img/front-image.png",
@@ -27,8 +26,8 @@
             }, 
 			{
                 "startDate":"2016,10",
-                "headline":"Разработка сайта",
-                "text":"'София Декор' сайт элитной мебели и дизайна!",
+                "headline":"'София Декор' сайт каталог",
+                "text":"Перенос сайта с Wix на Wordpress с разработкой своей темы!",
                 "asset":
                 {
                     "media":"http://sofia-decor.mcdir.ru/img/Logotip.jpg",
@@ -38,8 +37,8 @@
             },
 		{
                 "startDate":"2016,8",
-                "headline":"Доработка и реализация мультиязычности!",
-                "text":"'Perfuniq' сайт индивидуальной парфюмерии!",
+                "headline":"'Perfuniq' ",
+                "text":"Реализовано мультиязычность и доработка сайта на CMS Wordpress",
                 "asset":
                 {
                     "media":"assets/img/shots/perfuniq.jpg",
@@ -48,18 +47,29 @@
                 }
             },
 			{
-                "startDate":"2016,5",
+                "startDate":"2016,6",
                 "headline":"DSR Consierge",
-                "text":"Консьерж сайт предоставления услуг личного досуга!",
+                "text":"Сайт визитка реализована при помощи Css фреймворка Bootstrap!",
                 "asset":
                 {
                     "media":"assets/img/shots/pratt.png",
                     "credit":"<a href='http://dsrconcierge.com/index_ru.html'>Сайт сделан WEB-den</a>",
                     "caption":""
                 }
-            }, 
-			{
-                "startDate":"2016,4",
+            },
+            {
+                "startDate":"2016,2",
+                "headline":"'DSR Holding' Сайт холдинга",
+                "text":" Адаптивный сайт холдинга с эффектом Parallax и Css анимацией",
+                "asset":
+                {
+                    "media":"assets/img/shots/scin.jpg",
+                    "credit":"<a href='http://dsrholding.com'>Сайт сделан WEB-den</a>",
+                    "caption":""
+                }
+            },
+            {
+                "startDate":"2016,3",
                 "headline":"Адаптивная верстка фото портфолио",
                 "text":"Верстка адаптивная и кроссбраузерная!",
                 "asset":
@@ -69,32 +79,22 @@
                     "caption":""
                 }
             }, 
-			{
-                "startDate":"2016,3",
-                "headline":"Адаптивная верстка писем для e-mail рассылок",
-                "text":"Верстка писем при помощи Jade and Sass адаптивная и кроссбраузерная!",
-                "asset":
+            {
+                "startDate":"2016,1",
+                 "headline":"Шаблон верстки е-mail рассылки",
+                 "text":"Адаптивный шаблон для писем реализован при помощи HTML и CSS,и технологиями Jade, Sass.",
+                 "asset":
                 {
                     "media":"assets/img/shots/email_scrin.jpg",
                     "credit":"<a href='http:portfolio/email_verstka/index.html'>Сайт сделан WEB-den</a>",
                     "caption":""
                 }
             }, 
-            {
-                "startDate":"2016,2",
-                "headline":"Сайт корпоративного холдинга DSR",
-                "text":" Адаптивный сайт холдинга с эффектом паллакс и переходом между компаниями",
-                "asset":
-                {
-                    "media":"assets/img/shots/scin.jpg",
-                    "credit":"<a href='http://dsrholding.com'>Сайт сделан WEB-den</a>",
-                    "caption":""
-                }
-            }, 
+
             {
                 "startDate":"2015,12",
-                "headline":"Интернет магазин нижнего белья на Wordpress",
-                "text":"Многофункциональный интернет магазин!",
+                "headline":"'JAD' Интернет магазин на Wordpress",
+                "text":"Интернет магазин разработан на CMS Wordpress с использованием стандартной темы!",
                 "asset":
                 {
                     "media":"assets/img/shots/magazine.jpg",
@@ -104,8 +104,8 @@
             }, 
         	{
                 "startDate":"2015,11",
-                "headline":"Верстка главной страницы сайта",
-                "text":"Адаптивная верстка.",
+                "headline":"Врстка страницы сайта",
+                "text":"Адаптивная верстка тестовой страницы с использованием HTML CSS JS",
                 "asset":
                 {
                     "media":"assets/img/shots/test_work.jpg",
@@ -115,8 +115,8 @@
             }, 
         	 {
                 "startDate":"2015,9",
-                "headline":"Верстка главной страницы сайта",
-                "text":"Адаптивная верстка.",
+                "headline":"'Octopus' верстка страницы ",
+                "text":"Верстка страницы сайта с использованием технологий HTML CSS JS Jquery",
                 "asset":
                 {
                     "media":"assets/img/shots/octopus.jpg",
@@ -126,8 +126,8 @@
             }, 
             {
                 "startDate":"2015,7",
-                "headline":"Cайт портфолио Landing page на Wordpress",
-                "text":"Простой симпотичный сайт портфолио подходит для фотографов и веб разработчиков.",
+                "headline":"Cайт портфолио Landing Page с анимациями и сортировками",
+                "text":"Адаптивный сайт выполненый с применением технологий HTML CSS JS PHP",
                 "asset":
                 {
                     "media":"assets/img/shots/photo_portfolio.jpg",
@@ -137,8 +137,8 @@
             }, 
         	{
                 "startDate":"2015,5",
-                "headline":"7MAKEUP",
-                "text":"Сайт индустрии красоты",
+                "headline":"'7MAKEUP' верстка Корпоративного сайта",
+                "text":"Корпоративный сайт с фиксироваными размерами с использованием HTML, CSS, JS",
                 "asset":
                 {
                     "media":"assets/img/shots/7makeup.jpg",
@@ -148,8 +148,8 @@
             },   
             {
                 "startDate":"2015,3",
-                "headline":"Сайт фирмы по дизайну и ремонту",
-                "text":"Создание адаптивного и валидного одностраничного сайта с анимацией.",
+                "headline":"'Illivo'",
+                "text":"Создание адаптивного Landing Page с анимацией.",
                 "asset":
                 {
                     "media":"assets/img/shots/disainer.JPG",
@@ -159,8 +159,8 @@
             },
             {
                 "startDate":"2015,1",
-                "headline":"Сайт систем установки оборудования! Адаптий и кроссбраузерный",
-                "text":"",
+                "headline":"Сайт шаблон! Адаптивный и кроссбраузерный",
+                "text":"Зделан в виде Landing Page с использонием технологий HTML CSS JS, а так же форма отправки при помощи PHP",
                 "asset":
                 {
                     "media":"assets/img/shots/new_house.jpg",
@@ -170,8 +170,8 @@
             },
             {
                 "startDate":"2014,11",
-                "headline":"NataBench организация свадеб",
-                "text":"Очень красивый LandingPage",
+                "headline":"'NataBench' Landing Page с формой обратной связи и CSS Анимацией",
+                "text":"LandingPage реализовано при помощи HTML CSS JQuery",
                 "asset":
                 {
                     "media":"assets/img/shots/Nata_bench.JPG",
@@ -181,8 +181,8 @@
             },
             {
                 "startDate":"2014,10",
-                "headline":"Allegro верстка сайта автомобильных запчастей",
-                "text":"",
+                "headline":"'Allegro'",
+                "text":"Верстка страницы сайта картой ссылок",
                 "asset":
                 {
                     "media":"assets/img/shots/pet___you.jpg",
@@ -192,8 +192,8 @@
             },
             {
                 "startDate":"2014,9",
-                "headline":"Южный тур",
-                "text":"",
+                "headline":"My-site",
+                "text":"Сайт Landing Page построен при помощи Parallax эффекта",
                 "asset":
                 {
                     "media":"assets/img/shots/summer_tur.jpg",
@@ -203,8 +203,8 @@
             },
             {
                 "startDate":"2014,8",
-                "headline":"Kite Coming Soon HTML Template",
-                "text":"",
+                "headline":"'My Freelance'",
+                "text":"Верстка шаблона при помощи HTML CSS JS",
                 "asset":
                 {
                     "media":"assets/img/shots/Soc_seti.jpg",
