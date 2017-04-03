@@ -102,17 +102,7 @@
                     "caption":""
                 }
             }, 
-        	/*{
-                "startDate":"2015,11",
-                "headline":"Врстка страницы сайта",
-                "text":"Адаптивная верстка тестовой страницы с использованием HTML CSS JS",
-                "asset":
-                {
-                    "media":"assets/img/shots/test_work.jpg",
-                    "credit":"<a href='portfolio/test_work/index.html'>Автор верстки WEB-den</a>",
-                    "caption":""
-                }
-            }, */
+   
         	 {
                 "startDate":"2015,9",
                 "headline":"'Octopus' верстка страницы ",
